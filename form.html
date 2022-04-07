@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+
+    <style>
+        body{
+            text-align: center;
+            font-size: 18px;
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 5px;
+            width: fit-content;
+            margin: 15px;
+            padding: 10px;
+        }
+
+        h1{
+            color:aqua;
+            font-size: 25px;
+            font-family: "Roboto";
+            font-weight: bold;;
+        }
+
+        form{
+            background-color:cornflowerblue;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="justify-content row ">
+        <section>
+            <h1>Application Form</h1>
+        </section>
+        <hr>
+        <section>
+            <form>
+                <label for="fname">First-Name:</label>
+                <input type="text" name="firstname" required>
+                <br><br>
+    
+                <label for="lname">Last-Name:</label>
+                <input type="text" name="lastname" required>
+                <br><br>
+    
+                <label for="Gender">Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" required>
+                <label for="female">Female</label>
+                <input type="radio" required>
+                <br><br>
+    
+                <label for="mobile">Mobile No:</label>
+                <input type="text" name="mobile no" required>
+                <br><br>
+    
+                <label for="date">Birthday:</label>
+                <input type="date" name="date" required>
+                <br><br>
+    
+                <button>Submit</button>
+
+    
+            </form>
+        </section>
+        
+    </div>
+</body>
+</html>

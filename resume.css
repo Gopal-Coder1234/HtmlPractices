@@ -1,0 +1,52 @@
+.form{
+    border-style: solid;
+    border-width: 2px;
+    border-color: dimgrey;
+    width:800px;
+    margin: 25px;
+    padding: 10px;
+    
+}
+.div{
+    text-align: left;
+}
+.div-heading{
+    font-weight: bold;
+    padding-bottom: 0px;
+    font-size: 20px;
+}
+.div-para{
+    font-size: 16px;
+    font-family: "Roboto";
+    color:grey;
+    padding-top: 0px;
+}
+.span{
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.horizontal{
+    color:darkslateblue;
+    border-width: 2px;
+}
+.Carrier-object{
+    background-color: grey;
+    color:black;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 10px;
+}
+.list-item{
+    margin-left: 20px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.carrier-object-description{
+    margin-left: 28px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 8px;
+}
